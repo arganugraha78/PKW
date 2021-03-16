@@ -4,7 +4,11 @@
 }
 
 .kotak{
-    background-color: orangered;
-    color: white;
-    border: 10px solid cyan;
+    background-color:black;
+    color:white;   
 }
+
+.poto img {
+ height: 500px;   
+}
+
