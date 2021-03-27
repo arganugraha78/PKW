@@ -1,72 +1,24 @@
-/* Phone */
-.section-atas {
-    text-align: center;
-  }
-  
-  .section-atas img {
-    width: 300px;
-    border-radius: 80%;
-  }
-  .sosmed img {
-    width: 15px;
-  }
-  
-  .h1 {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .section-tengah {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .section-bawah {
-    display: flex;
-    border: 2px solid black;
-    justify-content: start;
-    flex-direction: column;
-  }
-  
-  .section-bawah1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-  }
-  
-  /* Tampilan tablet*/
-  @media (min-width: 768px) and (max-width: 992px) {
-    body {
-      border: 3px solid black;
-      background-color: lightcyan;
-    }
-    h1 {
-      color: green;
-    }
-  }
-  
-  /* desktop */
-  
-  @media (min-width: 992px) {
-    body {
-      background-color: white;
-    }
-  
-    h1 {
-      color:blue;
-    }
-    .section-tengah {
-      display: flex;
-      justify-content: start;
-    }
-    .section-bawah {
-      display: flex;
-      border: 2px solid black;
-      justify-content: center;
-      flex-direction: row;
-    }
-    .section-bawah1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-  }
+body {
+  background: url(/img/leyy-g4I3LiLuGF0-unsplash.jpg);
+  background-size: cover;
+  padding: 200px 450px;
+  color: white;
+  font-size: 100px;
+  font-family: serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#jam {
+  font-size: 4.5pc;
+}
+#tanggal {
+  font-size: 2pc;
+}
+#jam,
+#tanggal {
+  text-shadow: 0 7px 7px #000000bb;
+  justify-content: center;
+}
