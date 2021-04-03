@@ -1,24 +1,11 @@
-body {
-  background: url(/img/leyy-g4I3LiLuGF0-unsplash.jpg);
+.hero-banner{
+  background-image:url('img/Masa-Lalu-Logo.jpg');
   background-size: cover;
-  padding: 200px 450px;
-  color: white;
-  font-size: 100px;
-  font-family: serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-#jam {
-  font-size: 4.5pc;
-}
-#tanggal {
-  font-size: 2pc;
-}
-#jam,
-#tanggal {
-  text-shadow: 0 7px 7px #000000bb;
-  justify-content: center;
+.footer{
+  height: 50px;
 }
